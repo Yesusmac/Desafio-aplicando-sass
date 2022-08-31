@@ -1,12 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Desafio SASS</title>
 </head>
+
 <body>
-    
+    <!-- header -->
+    <header class="header">
+         <!-- logo -->
+         <img class="header__logo" src="https://place-hold.it/150x50&text=logo" alt="LOGO">
+        <!-- nav -->
+        <nav class="header__nav">
+            <!-- ul -->
+            <ul class="header__ul">
+                <li> <a class="header__ul--active" href="./index.html">INICIO</li></a>
+                <li>PRODUCTOS</li>
+                <li>INFORMACIÓN</li>
+                <li>CONTACTO</li>
+                <li>CREAR CUENTA</li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Contenido -->
+    <main class="main">
+        <!-- Titulo prinipal -->
+        <h1 class="main__tit-h1">NUESTRAS OFERTAS</h1>
+        <!-- articulos -->
+        <section class="main__arneses">
+            <article class="main__arnes">
+                <div class="main__imgprod">
+                    <img class="main__fotoProd" src="./Imagenes/arnesblanco.jpg" alt="arnesblanco">
+                </div>
+                <div class="main__contTxtImag">
+                    <h3 class="main__descripcionP">Arnes Blanco</h3>
+                    <p class="main__precioProducto">$1500</p>
+                </div>
+                <div class="main__contBtnProd">
+                    <button class="main__botonComprar">Comprar</button>
+                </div>
+            </article>
+            <article class="main__arnes">
+                <div class="main__imgprod">
+                    <img class="main__fotoProd" src="./Imagenes/arneses.jpg" alt="arneses">
+                </div>
+                <div class="main__contTxtImag">
+                    <h3 class="main__descripcionP">Arneses</h3>
+                    <p class="main__precioProducto">$1500</p>
+                </div>
+                <div class="main__contBtnProd">
+                    <button class="main__botonComprar">Comprar</button>
+                </div>
+            </article>
+            <article class="main__arnes">
+                <div class="main__imgprod">
+                    <img class="main__fotoProd" src="./Imagenes/arnes negro.jpg" alt="arnes negro">
+                </div>
+                <div class="main__contTxtImag">
+                    <h3 class="mian__descripcionP">Arnes negro</h3>
+                    <p class="main__precioProducto">$1500</p>
+                </div>
+                <div class="main__contBtnProd">
+                    <button class="main__botonComprar">Comprar</button>
+                </div>
+            </article>
+            <article class="main__arnes">
+                <div class="main__imgprod">
+                    <img class="main__fotoProd" src="./Imagenes/arnesrojo.jpg" alt="arne rojo">
+                </div>
+                <div class="main__contTxtImag">
+                    <h3 class="main__descripcionP">Arnes rojo</h3>
+                    <p class="main__precioProducto">$1500</p>
+                </div>
+                <div class="main__contBtnProd">
+                    <button class="main__botonComprar">Comprar</button>
+                </div>
+            </article>
+        </section>
+
+    </main>
+
+    <!-- pie de pagina -->
+    <footer>
+        <section>
+            <article class="footer__box">
+                <h3 class="txtPrin">Medios de pago </h3>
+                <img class="mediosDePago" src="./imagenes/iconos/medios_de_pagos3.png" alt="medios de pagos">
+            </article>
+            <article class="footer__box">
+                <h3 class="txtPrin">Medios de envio</h3>
+                <div class="mediosDeEnvios">
+                    <img src="./imagenes/iconos/logocorreoarg2.jpg" alt="correo argentino">
+                    <img src="./imagenes/iconos/ocalog.jpg" alt="Correo Oca">
+                </div>
+            </article>
+            <article class="footer__box">
+                <h3 class="txtPrin">Nuestras Redes</h3>
+                <div class="Redes">
+                    <a id="enlace_absoluto" href="https://es-la.facebook.com/" target="_blank">
+                        <img src="./imagenes/iconos/icons8-facebook-nuevo-30.png" alt="facebook">
+                    </a>
+                    <a id="enlace_absoluto" href="https://www.instagram.com/" target="_blank">
+                        <img src="./imagenes/iconos/icons8-instagram-30.png" alt="icon-instagram">
+                    </a>
+                </div>
+            </article>
+        </section>
+        <div class="defConsu">
+            <a href="https://www.buenosaires.gob.ar/defensaconsumidor" target="_blank">Defensoria al consumidor</a>
+        </div>
+    </footer>
 </body>
+
 </html>
