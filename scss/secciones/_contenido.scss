@@ -1,5 +1,5 @@
 .main {
-    background-color: rgba(245, 233, 236, 0.877);
+    background-color: rgba(249, 242, 244, 0.877);
 
     &__tit-h1 {
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -23,25 +23,29 @@
         max-width: 200px;
         margin-bottom: 2rem;
     }
+
     &__imgprod {
         width: 100%;
         height: 300px;
         background-color: #f7f7f7;
     }
-    &__fotoProd{
+
+    &__fotoProd {
         width: 100%;
         height: 100%;
         object-fit: cover;
     }
+
     &__descripcionP {
         font-size: 25px;
         text-align: center;
     }
+
     &__precioProducto {
         font-size: 20px;
         text-align: center;
     }
-    
+
     &__botonComprar {
         font-size: 20px;
         text-align: center;

@@ -22,7 +22,7 @@
       text-decoration: none; }
 
 .main {
-  background-color: rgba(245, 233, 236, 0.877); }
+  background-color: rgba(249, 242, 244, 0.877); }
   .main__tit-h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
@@ -62,3 +62,23 @@
     width: 100%;
     padding: 10px;
     border-radius: 20px; }
+
+.footer {
+  background-color: pink; }
+  .footer__txtPrin {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+  .footer__section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
+  .footer__footerBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem; }
+  .footer__defConsu {
+    text-align: center; }
